@@ -43,7 +43,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Bai Jamjuree, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -662,6 +662,16 @@ hr {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-lightBlue {
+  --tw-gradient-from: hsl(233,100%,69%);
+  --tw-gradient-to: hsl(233 100% 69% / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-strongCyan {
+  --tw-gradient-to: hsl(171,66%,44%);
 }
 
 .p-10 {
